@@ -1,44 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Simple Calculator</title>
     <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
+</head>
+
+<body>
     <main class="calculator">
-      <div class="display-panel" aria-live="polite">
-        <div id="expression" class="expression">0</div>
-        <div id="result" class="result">0</div>
-      </div>
+        <div class="display-panel" aria-live="polite">
+            <div id="expression" class="expression">0</div>
+            <div id="result" class="result">0</div>
+        </div>
 
-      <div class="button-grid">
-        <button type="button" class="action" data-action="clear">C</button>
-        <button type="button" class="action" data-action="delete">⌫</button>
-        <button type="button" class="operator" data-value="/">÷</button>
-        <button type="button" class="operator" data-value="*">×</button>
+        <div class="button-grid">
+            <button type="button" class="action" data-action="clear">C</button>
+            <button type="button" class="action" data-action="delete">⌫</button>
+            <button type="button" class="operator" data-value="/">÷</button>
+            <button type="button" class="operator" data-value="*">×</button>
 
-        <button type="button" class="digit" data-value="7">7</button>
-        <button type="button" class="digit" data-value="8">8</button>
-        <button type="button" class="digit" data-value="9">9</button>
-        <button type="button" class="operator" data-value="-">−</button>
+            <button type="button" class="digit" data-value="7">7</button>
+            <button type="button" class="digit" data-value="8">8</button>
+            <button type="button" class="digit" data-value="9">9</button>
+            <button type="button" class="operator" data-value="-">−</button>
 
-        <button type="button" class="digit" data-value="4">4</button>
-        <button type="button" class="digit" data-value="5">5</button>
-        <button type="button" class="digit" data-value="6">6</button>
-        <button type="button" class="operator" data-value="+">+</button>
+            <button type="button" class="digit" data-value="4">4</button>
+            <button type="button" class="digit" data-value="5">5</button>
+            <button type="button" class="digit" data-value="6">6</button>
+            <button type="button" class="operator" data-value="+">+</button>
 
-        <button type="button" class="digit" data-value="1">1</button>
-        <button type="button" class="digit" data-value="2">2</button>
-        <button type="button" class="digit" data-value="3">3</button>
-        <button type="button" class="equals" data-action="equals">=</button>
+            <button type="button" class="digit" data-value="1">1</button>
+            <button type="button" class="digit" data-value="2">2</button>
+            <button type="button" class="digit" data-value="3">3</button>
+            <button type="button" class="equals" data-action="equals">=</button>
 
-        <button type="button" class="digit wide" data-value="0">0</button>
-        <button type="button" class="digit" data-value=".">.</button>
-      </div>
+            <button type="button" class="digit wide" data-value="0">0</button>
+            <button type="button" class="digit" data-value=".">.</button>
+        </div>
     </main>
 
     <script src="app.js"></script>
-  </body>
+</body>
+
 </html>
