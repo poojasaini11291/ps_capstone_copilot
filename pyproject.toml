@@ -1,0 +1,11 @@
+[project]
+name = "doc-sync-capstone"
+version = "0.1.0"
+description = "Automated documentation sync project for GitHub Copilot capstone"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
