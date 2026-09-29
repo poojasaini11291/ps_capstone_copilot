@@ -1,5 +1,7 @@
 # ps_capstone_copilot
 
+This feature branch contains the calculator web app implementation and the supporting SDLC documentation for the capstone review workflow.
+
 This repository demonstrates an agentic SDLC workflow for a small online calculator web application. The project uses a simple calculator as the use case for requirements capture, architecture definition, design review, implementation planning, verification, and pull request documentation.
 
 ## Project goal
